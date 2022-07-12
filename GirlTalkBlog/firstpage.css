@@ -1,0 +1,104 @@
+body {
+    padding: 20px;
+    background-color: rgb(209, 176, 195);
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px inset rgb(139, 42, 99);
+    margin: 10px; 
+    padding: 10px;
+    align-items: center;
+    /* box-shadow: 0px 4px 4px black; */
+}
+.signinbuttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#button1 {
+    border-color: rgb(161, 61, 120);
+    border-width: 2px;
+    width: 80px;
+    box-shadow: 0px 2px 2px black;   
+}
+.header2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.titlecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-shadow: 0px 4px 4px black;
+}
+
+#subtitlecontainer {
+    color: rgb(114, 11, 37);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#subheading1 {
+    color: rgb(112, 179, 241);
+}
+#subheading2 {
+    color:rgb(201, 99, 158);
+}
+#subheading3 {
+    color:rgb(120, 218, 120);
+}
+
+.navbarsection {
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    border: 1px inset rgb(139, 42, 99);
+    margin: 10px; 
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgb(114, 11, 37);
+}
+#button1:hover{
+    background-color: rgb(161, 61, 120);
+}
+#button2 {
+    background-color:rgb(170, 46, 108);
+    margin: 7px;
+    width: 80px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px black;
+}
+#button2:hover {
+    background-color: rgb(155, 104, 134);
+}
+
+/* .articlecontainer {
+    gap: 30px;   
+} */
+
+.maincontentcontainer {
+    display: flex;
+    gap: 30px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    border: 1px inset rgb(139, 42, 99);
+    padding: 10px;
+}
+
+   /* P&PUr
+    color: rgb(248, 214, 232);
+    background-color:rgb(247, 210, 237);
+    
+    B&g
+    color: rgb(200, 243, 209);
+    color: rgb(183, 240, 194);
+
+    G&B
+    color: rgb(222, 248, 228);
+    color: rgb(212, 226, 238);*/
